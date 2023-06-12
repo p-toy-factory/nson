@@ -9,7 +9,7 @@ Install Node.js
 ## Usage
 
 ```shell
-cd nson-cli
+cd nson
 
 npm install
 
