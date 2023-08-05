@@ -1,10 +1,14 @@
 {
-  "name": "nson",
-  "version": "1.0.0",
-  "devDependencies": {
-    "@types/node": "^20.1.3"
-  },
-  "dependencies": {
-    "commander": "^10.0.1"
-  }
+	"private": "true",
+	"workspaces": [
+		"packages/*"
+	],
+	"packageManager": "pnpm@8.6.11",
+	"scripts": {
+		"lint": "prettier . --check ",
+		"lint:fix": "prettier . --write"
+	},
+	"devDependencies": {
+		"prettier": "^3.0.1"
+	}
 }
