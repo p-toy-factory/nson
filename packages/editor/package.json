@@ -1,0 +1,22 @@
+{
+	"name": "editor",
+	"private": true,
+	"version": "1.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build --base=/nson/ && node scripts/remove-unused-monaco-loaders.mjs",
+		"preview": "vite preview --base=/nson/"
+	},
+	"devDependencies": {
+		"@types/pako": "^2.0.0",
+		"@types/wicg-file-system-access": "^2020.9.6",
+		"pako": "^2.1.0",
+		"typescript": "^5.1.6",
+		"vite": "^4.4.8"
+	},
+	"dependencies": {
+		"monaco-editor": "^0.41.0",
+		"prettier": "^3.0.1"
+	}
+}

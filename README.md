@@ -1,15 +1,25 @@
 # nson
 
-A CLI to encode or decode Naninovel `nson` file.
+English | [简体中文](README.zh-CN.md)
 
-## Prerequisite
+Encode and decode Naninovel `.nson` file.
+
+## Web editor (Recommend)
+
+You can edit your nson on the [web editor](https://p-toy-factory.github.io/nson/).
+
+## CLI
+
+### Prerequisite
 
 Install Node.js
 
-## Usage
+### Usage
 
 ```shell
 cd nson
+
+cd packages/nson-cli
 
 npm install
 
